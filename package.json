@@ -1,0 +1,14 @@
+{
+  "name": "algorithm_list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:joseade/algorithm_list.git",
+  "author": "joseade <jlavila@intekglobal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  }
+}
