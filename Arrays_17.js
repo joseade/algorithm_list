@@ -4,12 +4,10 @@ class TriangularArray {
     this.values = new Array((this.numRows * (this.numRows - 1)) / 2);
   }
   mapRowAndColumn(row, column) {
-    console.log(this);
     if (row === column) {
       throw new Error("The row and column indexes cannot be the same");
     }
     if (row > this.numRows) {
-      console.log("AAA");
       throw new Error("The row must be smaller than the number of rows");
     }
     if (column > this.numRows) {
