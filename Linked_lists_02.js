@@ -1,5 +1,3 @@
-const { LinkedList } = require("./Linked_list");
-
 const detectCycle = function (list) {
   let slow = list.head;
   let fast = slow;
