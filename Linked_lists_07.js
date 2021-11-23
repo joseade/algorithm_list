@@ -33,6 +33,22 @@ class PriorityQueue {
   peek() {
     return this.first;
   }
+  poll() {
+    if (!this.first) return;
+    let node = this.first;
+    while (node.next && node.next.next) {
+      node = node.next;
+    }
+    let last;
+    if (!node.next) {
+      last = node;
+      this.first = null;
+    } else {
+      last = node.next;
+      node.next = null;
+    }
+    return last;
+  }
 }
 
 module.exports = {
