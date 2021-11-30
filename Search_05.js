@@ -5,6 +5,6 @@ const findMissingNumber = (arr) => {
 module.exports = {
   findMissingNumber,
 };
-const arr = [1, 8, 3, 4, 5, 6, 7];
+// const arr = [1, 8, 3, 4, 5, 6, 7];
 
-console.log(findMissingNumber(arr));
+// console.log(findMissingNumber(arr));
